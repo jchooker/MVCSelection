@@ -1,7 +1,11 @@
-﻿@*
+﻿@model MVCSelection.Models.DogViewModel
+
+@*
     For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 *@
 @{
 }
 <h1>Hello Test</h1>
 <p>Welcome to our hello test site</p>
+<h4>My dog is named @Model.Name</h4>
+<h4>@Model.Name 's age is @Model.Age</h4>
